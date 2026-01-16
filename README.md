@@ -1,20 +1,27 @@
-# Student-Management-API
-ASP.NET Core Web API with JWT Authentication and SQL Server
-## Student Management System – ASP.NET Core Web API
+# Student Management API
 
-This project is a backend REST API built using ASP.NET Core.  
-It includes secure authentication, role-based authorization, and CRUD operations.
+A backend REST API built with ASP.NET Core for managing students and users with secure authentication.
 
-### Technologies
-- ASP.NET Core
+## Tech Stack
+- ASP.NET Core Web API
 - C#
 - Entity Framework Core
 - SQL Server
 - JWT Authentication
 
-### Features
+## Features
 - User Registration & Login
-- JWT Authentication
-- CRUD APIs
-- Secure endpoints
+- JWT-based Authentication
+- Role-based Authorization
+- CRUD operations
 - EF Core Migrations
+- Clean Architecture
+
+## Setup
+1. Clone the repository
+2. Update connection string in `appsettings.json`
+3. Run migrations
+4. Run the project
+
+## Author
+Muhammad Imran
